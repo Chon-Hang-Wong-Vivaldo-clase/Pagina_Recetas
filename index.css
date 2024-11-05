@@ -3,6 +3,18 @@ header {
     height: 60px;
 }
 
+hr {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
 .headerNAV { 
     display: flex;
     width: 100%;
@@ -27,24 +39,27 @@ header {
 }
 
 .pointInterest {
-    height: 450px;
+    display: flex;
+    flex-direction:column;
+    height: 500px;
     width: 100%;
     background-image: url(img/orange-sauce.webp);
     background-size: cover;
     background-position: center;
     font-family: "Arial", sans-serif;
-    position: fixed;
     top: 100;
 }
 
 .recipeCat {
     margin-top: 100px;
     margin-left: 150px;
+    font-weight: 700
 }
 
 .recipeTitle {
     margin-left: 150px;
     font-size: 50px;
+    font-weight: 700;
 }
 
 .recipeSubtitle{
@@ -56,15 +71,17 @@ header {
     display: flex;
     justify-content: center;
     margin-left: 150px;
-    width: 150px;
-    padding: auto;
-    border: 3px solid black;
+    width: 125px;
+    color: rgb(233, 153, 54);
+    border: 3px solid rgb(233, 153, 54);
     box-sizing: border-box;
     border-radius: 30px;
+    margin-top: 15px;
+    font-size: 15px;
 }
 
 .NAV {
-    position:static;
+    padding-top: 140px;
     font-family: "Arial", sans-serif;
     font-size: 18px;
     display: flex;
@@ -80,3 +97,12 @@ header {
     padding-top: 22px;
 }
 
+.lastestRecipes {
+    display: flex;
+    
+    padding-top: 80px;
+    margin-left: 80px;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    
+}
