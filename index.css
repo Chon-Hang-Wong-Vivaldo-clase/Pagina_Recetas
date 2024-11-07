@@ -1,3 +1,8 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
 header {
     background-color: bisque;
     height: 60px;
@@ -98,11 +103,46 @@ hr {
 }
 
 .lastestRecipes {
-    display: flex;
-    
     padding-top: 80px;
     margin-left: 80px;
     font-family: "Arial", sans-serif;
     font-size: 20px;
     
+}
+
+.Recipes {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.Grantma {
+    width: 100%;
+    height: 400px;
+    
+}
+
+.Juice {
+    width: 100%;
+    height: 400px;
+}
+
+.Grantma img{
+    width: 700px;
+    height: 600px;
+}
+
+.Juice img{
+    width: 700px;
+    height: 600px;
+    margin-left: 300px;
+}
+
+.descriptionRecipe {
+    display: flex;
+    flex-direction:column;
+    height: 300px;
+    width: 100%;
+    font-family: "Arial", sans-serif;
+    top: 100;
 }
