@@ -4,13 +4,15 @@ body{
 }
 
 header {
+    width: 100%;
     background-color: bisque;
     height: 60px;
+    position: fixed;
 }
 
 hr {
     display: block;
-    margin-block-start: 0em;
+    margin-block-start: 0.5em;
     margin-block-end: 0em;
     margin-inline-start: auto;
     margin-inline-end: auto;
@@ -77,8 +79,8 @@ hr {
     justify-content: center;
     margin-left: 150px;
     width: 125px;
-    color: rgb(233, 153, 54);
-    border: 3px solid rgb(233, 153, 54);
+    color: rgb(203, 153, 126);
+    border: 3px solid rgb(203, 153, 126);
     box-sizing: border-box;
     border-radius: 30px;
     margin-top: 15px;
@@ -97,45 +99,53 @@ hr {
     font-family: "Arial", sans-serif;
     font-size: 18px;
     color: grey;
-    margin-left: 80px;
-    margin-right: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
     padding-top: 22px;
 }
 
 .lastestRecipes {
-    padding-top: 80px;
-    margin-left: 80px;
+    padding: 120px;
+    padding-top: 90px;
     font-family: "Arial", sans-serif;
     font-size: 20px;
-    
+    padding-bottom: 30px;
+    height: 1000px;
+}
+
+.lastestRecipes h2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: normal;
+    font-size: 45px;
 }
 
 .Recipes {
     display: flex;
-    align-items: center;
-    width: 90%;
+    gap: 10%;
+    width: 91%;
+    height: 600px;
+    padding: 1%;
 }
 
 .Grantma {
     width: 100%;
-    height: 400px;
-    
+    height: 500px;
 }
 
 .Juice {
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 
 .Grantma img{
-    width: 700px;
-    height: 600px;
+    width: 120%;
+    height: 110%;
 }
 
 .Juice img{
-    width: 700px;
-    height: 600px;
-    margin-left: 300px;
+    width: 120%;
+    height: 110%;
 }
 
 .descriptionRecipe {
@@ -145,4 +155,355 @@ hr {
     width: 100%;
     font-family: "Arial", sans-serif;
     top: 100;
+}
+
+.descriptionRecipe h3 {
+    font-weight: normal;
+    font-size:xx-large;
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+.descriptionRecipe h4 {
+    font-weight: 1000;
+    font-size:medium;
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+.seeRecipe2{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    width: 125px;
+    color: rgb(203, 153, 126);
+    border: 3px solid rgb(203, 153, 126);
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.neverMiss {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 10%;
+    margin-top: 70px;
+    margin-bottom: 90px;
+    background-color: rgb(203, 153, 126);
+    border: 3px solid rgb(203, 153, 126);
+    border-radius: 30px;
+    font-family: "Arial", sans-serif;
+}
+
+.neverMiss h4 {
+    font-weight: normal;
+    font-size:xx-large;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.neverMiss p {
+    font-weight: normal;
+    font-size:22px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.botonNever {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    color: black;
+    border: 3px solid rgb(224, 188, 168);
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right:5dvw;
+}
+
+.botonNever p {
+    margin-top: 15px;
+}
+
+.mostPopularRecipes {
+    font-family: "Arial", sans-serif;
+    padding: 120px;
+    padding-top: 80px;
+}
+
+.mostPopularRecipes h2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: normal;
+    font-size: 45px;
+}
+
+.firstTwo {
+    display: flex;
+    justify-content: space-between;
+    gap: 7%;
+    width: 100%;
+    padding-bottom: 7%;
+    vertical-align: bottom;
+}
+
+.recipe1 {
+    vertical-align: text-bottom;
+    width: 100%;
+    height: 600px;
+    background-image: url(/img/butterscotch.webp);
+    background-size: cover;
+}
+
+.recipe1 p {
+    font-weight: 1000;
+    font-size: medium;
+    margin-top: 510px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.recipe1 h2 {
+    font-weight: normal;
+    font-size: xx-large;
+    margin-top: 0%;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+
+.recipe2 {
+    width: 100%;
+    height: 600px;
+    background-image: url(/img/orange-sauce.webp);
+    background-size: cover;
+}
+
+.recipe2 p {
+    font-weight: 1000;
+    font-size: medium;
+    margin-top: 510px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.recipe2 h2 {
+    font-weight: normal;
+    font-size: xx-large;
+    margin-top: 0%;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.secondTwo {
+    display: flex;
+    justify-content: space-between;
+    gap: 7%;
+    width: 100%;
+}
+.recipe3 {
+    width: 100%;
+    height: 600px;
+    background-image: url(/img/avocadoToasts.webp);
+    background-size: cover;
+}
+
+.recipe3 p {
+    font-weight: 1000;
+    font-size: medium;
+    margin-top: 510px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.recipe3 h2 {
+    font-weight: normal;
+    font-size: xx-large;
+    margin-top: 0%;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.recipe4 {
+    width: 100%;
+    height: 600px;
+    background-image: url(/img/parfait.webp);
+    background-size: cover;
+}
+
+.recipe4 p {
+    font-weight: 1000;
+    font-size: medium;
+    margin-top: 510px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-left: 15px;
+}
+
+.recipe4 h2 {
+    font-weight: normal;
+    font-size: xx-large;
+    margin-top: 0%;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.backgroundAboutme {
+    background-color: rgb(221, 190, 169);
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    width: 100%;
+    height: 100%;
+    height: 460px;
+    justify-content: 0;
+    font-family: "Arial", sans-serif;
+}
+
+
+.personalPhoto {
+    display: flex;
+    justify-items: center;
+    width: 800px;
+    height: 300px;
+    background-image: url(/img/personalPhoto.png);
+    background-size: cover;
+    border: 3px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 800px;
+    font-size: 15px;
+    padding: 10px;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-left: 8%;
+}
+
+.information {
+    margin-right: 10%;
+}
+
+.information h5 {
+    margin-top: 135px;
+    margin-bottom: 1%;
+    font-weight: 1000px;
+    font-size:large;
+}
+
+.information h4 {
+    margin-top: 0;
+    margin-bottom: 0%;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.information p {
+    margin-top: 0;
+    margin-bottom: 0%;
+    font-weight: normal;
+    font-size: large;
+}
+
+.footer {
+        display: flex;
+        justify-content: space-around;
+        gap: 100px;
+        width: 100%;
+        height: 100%;
+        height: 300px;
+        justify-content: 0;
+        font-family: "Arial", sans-serif;    
+}
+
+.positionCategories {
+    margin: 5%;
+}
+
+.categories {
+        display: flex;
+        flex-direction: row;
+        font-family: "Arial", sans-serif;
+        margin-right: 25px;
+        padding-top: 10px;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    font-family: "Arial", sans-serif;
+    margin-right: 25px;
+    padding-top: 10px;
+    width: 300px;
+}
+
+.facebook {
+    display: flex;
+    justify-items: center;
+    width: 42px;
+    height: 40px;
+    background-image: url(/img/facebook.png);
+    background-size: cover;
+    border: 3px solid rgb(35, 31, 32);
+    box-sizing: border-box;
+    border-radius: 800px;
+    padding: 10px;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-left: 8%;
+}
+
+.instagram {
+    display: flex;
+    justify-items: center;
+    width: 42px;
+    height: 40px;
+    background-image: url(/img/instagram.png);
+    background-size: cover;
+    border: 3px solid rgb(35, 31, 32);
+    box-sizing: border-box;
+    border-radius: 800px;
+    padding: 10px;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-left: 8%;
+}
+
+.twitter {
+    display: flex;
+    justify-items: center;
+    width: 42px;
+    height: 40px;
+    background-image: url(/img/twitter.png);
+    background-size: cover;
+    border: 3px solid rgb(35, 31, 32);
+    box-sizing: border-box;
+    border-radius: 80px;
+    padding: 10px;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-left: 8%;
+}
+
+.tiktok {
+    display: flex;
+    justify-items: center;
+    width: 42px;
+    height: 40px;
+    background-image: url(/img/tiktok.png);
+    background-size: cover;
+    border: 3px solid rgb(35, 31, 32);
+    box-sizing: border-box;
+    border-radius: 800px;
+    padding: 10px;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-left: 8%;
 }
