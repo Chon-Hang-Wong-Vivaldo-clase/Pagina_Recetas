@@ -142,19 +142,19 @@ hr {
 
 @media (max-width: 850px) {
     .NAV {
-        display: grid; /* Usamos Grid para distribuir en columnas */
-        grid-template-columns: repeat(2, 1fr); /* 2 columnas de igual tamaño */
-        gap: 15px; /* Espacio entre las columnas */
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px; 
     }
 
     .paginas {
-        text-align: center; /* Centra el texto de las páginas */
-        padding-top: 10px; /* Ajusta el padding si es necesario */
+        text-align: center; 
+        padding-top: 10px; 
     }
 
     .ViewCat {
-        grid-column: span 2; /* Asegura que "View by category" ocupe ambas columnas */
-        text-align: center; /* Centra el texto */
+        grid-column: span 2; 
+        text-align: center; 
     }
 }
 
@@ -346,7 +346,7 @@ hr {
     vertical-align: text-bottom;
     width: 100%;
     height: 600px;
-    background-image: url(/img/butterscotch.webp);
+    background-image: url(img/butterscotch.webp);
     background-size: cover;
 }
 
@@ -370,7 +370,7 @@ hr {
 .recipe2 {
     width: 100%;
     height: 600px;
-    background-image: url(/img/orange-sauce.webp);
+    background-image: url(img/orange-sauce.webp);
     background-size: cover;
 }
 
@@ -413,7 +413,7 @@ hr {
 .recipe3 {
     width: 100%;
     height: 600px;
-    background-image: url(/img/avocadoToasts.webp);
+    background-image: url(img/avocadoToasts.webp);
     background-size: cover;
 }
 
@@ -436,7 +436,7 @@ hr {
 .recipe4 {
     width: 100%;
     height: 600px;
-    background-image: url(/img/parfait.webp);
+    background-image: url(img/parfait.webp);
     background-size: cover;
 }
 
@@ -591,9 +591,9 @@ hr {
     justify-items: center;
     width: 42px;
     height: 40px;
-    background-image: url(/img/facebook.png);
+    background-image: url(img/facebook.png);
     background-size: cover;
-    border: 3px solid rgb(35, 31, 32);
+    border: 3px;
     box-sizing: border-box;
     border-radius: 800px;
     padding: 10px;
@@ -607,9 +607,9 @@ hr {
     justify-items: center;
     width: 42px;
     height: 40px;
-    background-image: url(/img/instagram.png);
+    background-image: url(img/instagram.png);
     background-size: cover;
-    border: 3px solid rgb(35, 31, 32);
+    border: 3px;
     box-sizing: border-box;
     border-radius: 800px;
     padding: 10px;
@@ -623,9 +623,9 @@ hr {
     justify-items: center;
     width: 42px;
     height: 40px;
-    background-image: url(/img/twitter.png);
+    background-image: url(img/twitter.png);
     background-size: cover;
-    border: 3px solid rgb(35, 31, 32);
+    border: 3px;
     box-sizing: border-box;
     border-radius: 80px;
     padding: 10px;
@@ -639,9 +639,9 @@ hr {
     justify-items: center;
     width: 42px;
     height: 40px;
-    background-image: url(/img/tiktok.png);
+    background-image: url(img/tiktok.png);
     background-size: cover;
-    border: 3px solid rgb(35, 31, 32);
+    border: 3px;
     box-sizing: border-box;
     border-radius: 800px;
     padding: 10px;
