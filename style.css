@@ -501,7 +501,7 @@ hr {
 }
 
 .information h5 {
-    margin-top: 135px;
+    margin-top: 60px;
     margin-bottom: 1%;
     font-weight: 1000px;
     font-size:large;
@@ -534,7 +534,8 @@ hr {
         height:fit-content;
     }
     .personalPhoto{
-        width: auto;
+        flex-direction: column;
+        width: 60%;
         height: 65%;
         box-sizing: border-box;
         border-radius: 800px;
